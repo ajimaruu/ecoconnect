@@ -209,14 +209,13 @@ body {
 .mobile-frame {
   width: 100%;
   max-width: 420px;
-  height: 90vh;
-  max-height: 95vh;
+  min-height: 100vh;
+  height: auto;
   background: #ffffff;
   border-radius: 26px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  box-shadow: 0 25px 60px rgba(0,0,0,0.15);
 }
 
 /* ============================= */
